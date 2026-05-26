@@ -411,3 +411,4 @@ if archivo:
                 st.markdown(f"| {reg['nombre']} | {dni} | {nw} | {ico} |")
             if len(registros) > 8:
                 st.caption(f"... y {len(registros)-8} filas más en el Excel descargable.")
+
