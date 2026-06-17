@@ -16,12 +16,7 @@ with st.sidebar:
     st.markdown(
         "Esta app usa la API de **[apiperu.dev](https://apiperu.dev)** "
         "para consultar nombres por DNI desde la nube.\n\n"
-        "**Pasos para obtener tu token:**\n"
-        "1. Ve a [apiperu.dev](https://apiperu.dev/auth/register)\n"
-        "2. Crea una cuenta gratuita (100 consultas/mes)\n"
-        "3. Copia tu token de acceso\n"
-        "4. Pégalo aquí abajo\n\n"
-        "Para 215 DNIs → Plan Micro: **S/5/mes**"
+       
     )
     token = st.text_input("🔑 Token API (apiperu.dev)", type="password", placeholder="Pega tu token aquí")
     if token:
